@@ -1,0 +1,29 @@
+toutes les machines ont l'historique du code >> rapidité
+https://github.com/
+http://openclassrooms.com/courses/gerer-son-code-avec-git-et-github
+
+git status
+git init
+git add fichier ou . >> ajout à l'index
+git commit -am "message" >> -a = pour les fichiers déjà indexé
+git log >> afficher l'historique des commits ("q" pour en sortir)
+
+git checkout {identifiant du commit} >> se positionner sur un commit de l'historique
+git chechout master >> retour au dernier commit
+
+git clone https://github....
+
+git push origin master 
+	>> origin = 1 seul remote par defaut (github)
+	>> master = branche principale
+
+git pull origin master
+	>> récupérer les derniers commit de la branche
+
+
+git branch >> Afficher les branches
+git branch nvellebranche >> Créer une nouvelle branche
+git checkout nvellebranche >> Se déplacer dans une branche
+git merge autrebranche >> Merger la branche courante avec une autre branche
+
+git blame monfichier >> Afficher l'historique ligne par ligne d'un fichier

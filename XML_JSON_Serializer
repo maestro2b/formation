@@ -5,6 +5,9 @@ using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
 
+
+//Générer une classe à partir d'une XSD: xsd your.xsd /classes
+
 namespace ConsoleApplication1
 {
     class Program
